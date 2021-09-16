@@ -133,7 +133,8 @@
     animation-duration: 60s;
 }
 
-#images {
-    width: 300px;
+.images {
+    width: 400px;
+    height: 260px;
     overflow: auto;
 }
