@@ -133,9 +133,6 @@
     animation-duration: 60s;
     animation-name: mesImages;
     animation-iteration-count: infinite;
-    width: 400px;
-    height: 260;
-    border-radius: 2%;
 }
 
 .images {
