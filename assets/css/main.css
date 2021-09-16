@@ -131,10 +131,49 @@
 .img_pc {
     display:flex;
     animation-duration: 60s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
 }
 
 .images {
     width: 400px;
-    height: 260px;
-    overflow: auto;
+    overflow: hidden;
+    border-radius: 2%;
+    border: 2px solid #8316ff;
+}
+
+@keyframes mesImages {
+    0% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(-412px);
+    }
+    20% {
+        transform: translateX(-812px);
+    }
+    30% {
+        transform: translateX(-1212px);
+    }
+    40% {
+        transform: translateX(-1612px);
+    }
+    50% {
+        transform: translateX(-2012px);
+    }
+    60% {
+        transform: translateX(-2412px);
+    }
+    70% {
+        transform: translateX(-2812px);
+    }
+    80% {
+        transform: translateX(-3212px);
+    }
+    90% {
+        transform: translateX(-3612px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
