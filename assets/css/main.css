@@ -130,9 +130,10 @@
 
 .img_pc {
     display:flex;
+    animation-duration: 60s;
 }
 
-#col-6 col-md-4 {
+#images {
     width: 300px;
     overflow:auto;
 }
