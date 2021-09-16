@@ -131,3 +131,8 @@
 .img_pc {
     display:flex;
 }
+
+#col-6 col-md-4 {
+    width: 640px;
+    overflow:auto;
+}
