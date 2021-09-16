@@ -135,6 +135,7 @@
     animation-iteration-count: infinite;
     width: 400px;
     height: 260;
+    border-radius: 2%;
 }
 
 .images {
