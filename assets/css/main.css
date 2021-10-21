@@ -141,6 +141,7 @@
     overflow: hidden;
     border-radius: 2%;
     border: 2px solid #8316ff;
+    display: flex;
 }
 
 @keyframes mesImages {
